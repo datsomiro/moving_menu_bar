@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100wh;
+}
+
+.aside {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    width: 15vh;
+    height:100vh;
+    transition: 1s ease;
+    color: white;
+
+}
+i {
+    margin: 4vh 2vh;
+}
+.aside:hover{
+    width: 40vh;
+    t
+}
+.aside_menu--hidden {
+    display: none;
+    margin-right: 5vh;
+}
+
+
+.text {
+    width: 60%;
+    height:100vh;
+    text-align: left;
+    margin-left: 10vh;
+}
